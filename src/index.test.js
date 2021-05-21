@@ -1,4 +1,4 @@
-const { sum, sub, times, divide } = require("./");
+const { sum, sub, times, divide } = require(".");
 
 test("should sum correctly", () => {
   expect(sum(1, 1)).toBe(2);
